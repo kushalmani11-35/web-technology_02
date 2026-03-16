@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demo form</h1>
+    <form action="https://www.google.com/search?q=instagram&r" method=" post" target="_blank">
+        <fieldset>
+            
+        <legend align="center">login details</legend>
+        <label>fname and lname</label>
+        <input type="text" name="fname" placeholder="enter the name">
+        <input type="text" name="lname" placeholder="enter the lname">
+        <br>
+        <label >email: <sup>*</sup></label>
+        <input type="mail" name="mail" placeholder="enter the mail" required>
+        <br>
+        <label for="">password: <sup>*</sup></label>
+        <input type="password" name="kushal" placeholder="enter the password" required>
+        <br>
+        <label >dob:</label>
+        <input type="date" name="dob" placeholder="enter your dob">
+        <br>
+        <label for="">time</label>
+        <input type="time" name="time" placeholder="e the time">
+        <br>
+        <label >time and dob</label>
+        <input type="datetime-local" name="time and date" placeholder="e the time and date">
+        <br>
+        <label for="">month</label>
+        <input type="month" name="month">
+        <br>
+        <label for="">week</label>
+        <input type="week" name="week" id="">
+        <br>
+        <label for="">contact no</label>
+        <input type="tel" name="phoneno" placeholder="enter the contact no" pattern="[6-9]{1}[0-9]{9}">
+        <br>
+        <label for="">age</label>
+        <input type="number" name="age" placeholder="e the age" min="1" max="99">
+        <br>
+        <label for="">url:</label>
+        <input type="url" name="website name" placeholder="e the url">
+        <br>
+        <label for="">search</label>
+        <input type="search" name="search" placeholder="e the word">
+        <br>
+        <label for="">choose the file:</label>
+        <input type="file" name="flie:">
+        <br>
+        <label for="">color</label>
+        <input type="color" name="color">
+        <br>
+        <label for="">range:</label>
+        <input type="range" name="range:" min="1" max="40">
+        <br>
+        <label for="">gender:</label>
+        <label for="m">male</label>
+        <input type="radio" name="gender" value="male" id="m" checked>
+        <label for="f">female</label>
+        <input type="radio" name="gender" value="female" id="f">
+        <label for="o">others</label>
+        <input type="radio" name="gender" value="other" id="o" disabled>
+        <br><br>
+        <label for="">lang:</label>
+        <label for="e">eng:</label>
+        <input type="checkbox" name="lang" value="eng" id="e" checked>
+        <label for="k">kan</label>
+        <input type="checkbox" name="lang" value="kan" id="k" >
+        <label for="t">tamil</label>
+        <input type="checkbox" name="lang" value="tamil" id="t" >
+        <br>
+        <label for="">places</label>
+        <select name="places" id="">
+            <option value="hsn" disabled>hassan</option>
+            <option value="pataya">pataya</option>
+            <option value="goa" selected>goa</option>
+            
+        </select>
+        <br><br>
+        <textarea name="comt" placeholder="comments"  rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="register">
+        <input type="reset">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
