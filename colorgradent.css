@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh 0;
+
+}
+
+.box{
+
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+}
+.lg1{
+    background-image: linear-gradient(red,blue,white,black);
+    cursor: pointer;
+}
+.lg2{
+    background: linear-gradient(to top,red,yellow,blue);
+    cursor: help;
+}
+.lg3{
+    background: linear-gradient(to top left, brown ,green,darkblue);
+    cursor:alias;
+}
+.rg1{
+    background: radial-gradient( circle at bottom,green,blue,red);
+    cursor: all-scroll;
+}
+.rg2{
+    background: conic-gradient(red,yellow,blue,black);
+    cursor: no-drop;
+}
+.rg3{
+    background: radial-gradient(red,yellow,blue,black);
+    cursor: crosshair;
+}
+.r1{
+    background: repeating-linear-gradient(black ,greenyellow 20%);
+    cursor: progress;
+}
+.r2{
+    background: repeating-radial-gradient(black, greenyellow 25%);
+    cursor: col-resize;
+}
+.r3{
+    background: repeating-conic-gradient(black,greenyellow 20%);
+}
+
+
+.op1{
+    background: linear-gradient(red,rgba(255, 0, 0, 0));
+}
+.h{
+    text-align: center;
+    font-size: 50px;
+    padding: 1vh 0;
+    background: linear-gradient(red ,brown,black);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 5vh;
+    text-decoration: underline;
+    font-family: sans-serif;
+
+}

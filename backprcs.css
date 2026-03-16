@@ -1,0 +1,8 @@
+body{
+    color: rgba(218, 17, 17, 0.925);
+    background-image: url("./imges/crp.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}

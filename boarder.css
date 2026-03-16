@@ -1,0 +1,72 @@
+p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.para1{
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: groove;
+    
+}
+
+.para1{
+    border-top-width: 10px;
+    border-right-width: 20px;
+    border-bottom-width: 30px;
+    border-left-width: 40px;
+
+}
+
+.para1{
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: yellow;
+    border-left-color: pink;
+
+}
+
+.para1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+.para2{
+    border-top-style:double;
+    border-top-width:10px;
+    border-top-color:aqua;
+
+    border-right-style: dashed;
+    border-right-width:30px;
+    border-bottom-left-radius: 20px;
+}
+
+.para3{
+    width:50%;
+    border-style: solid;
+    height: 60vh;
+
+    /*overflow:auto;*/
+    overflow-y: scroll;
+    box-shadow: inset -10px 10px 10px lightblue;
+}
+
+
+
+img{
+    height: 200px;
+    box-shadow: 1px 1px 10px red;
+
+    filter: drop-shadow(5px 5px 5px black);
+    filter: brightness(200%);
+    filter: blur(10px);
+    filter: opacity(0.3);
+    filter: contrast(20%);
+    filter: saturate(80%);
+
+    filter: saturate(0%) drop-shadow(1px 1px 10px red);
+}

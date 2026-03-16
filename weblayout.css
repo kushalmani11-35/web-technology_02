@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    background-color: yellow;
+    color: black;
+    display: grid;
+    grid-template-columns: 20vh auto 20vh;
+    grid-template-rows:  10vh 20vh 100vh 10vh;
+    grid-template-areas: 
+        "header header header "
+        "nav nav nav"
+        "leftside main rightside"
+        "footer footer footer"
+    ;
+}
+header{
+    background-color: lightcoral;
+    grid-area: header ;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+nav{
+    background-color: rgb(35, 160, 160);
+    grid-area: nav ;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+.ls{
+    background-color: lightskyblue;
+    grid-area: leftside;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+main{
+    background-color: lightgreen;
+    grid-area: main;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+footer{
+    background-color: lightsalmon;
+    grid-area: footer;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+.RS{
+    background-color: rgb(255, 122, 233);
+    grid-area: rightside ;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}   

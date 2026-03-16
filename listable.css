@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type:upper-roman ;
+    list-style-position: inside;
+    margin: 10vw;
+    list-style-image: radial-gradient(red,yellow,green);
+}
+
+li::before{
+    content:"*** ";
+    color: red;
+}
+
+li::after{
+    content: "...";
+}
+
+li:nth-child(even){
+    background-color: lightcoral;
+}
+
+table,th,td{
+    border: solid 1px black;
+}
+
+table{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th{
+    color: red;
+}
+
+tr:nth-child(1){
+    background-color: yellow;
+}
+
+tr :nth-child(1){
+    background-color: pink;
+}
+
+tr :nth-child(odd){
+    background-color: aquamarine;
+}
+
+.square{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    margin: 10vh auto;
+    padding: 2vh 3vw;
+    overflow: hidden;
+    
+}
+.square:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+.square img{
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+}
+
+.square img:hover{
+    transform: scale(1.5);
+    /* transform: translateX(-120%); */
+}
+
+
+.formbox{
+    border: solid 1px navy;
+    width:40%;
+    margin: 10vh auto;
+    padding: 2vh 2vw;
+    background: linear-gradient(to bottom right,navy 50%,white 50%);
+    box-shadow: 5px 5px navy;
+}
+
+.formbox h3{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* .formbox input, .formbox button */

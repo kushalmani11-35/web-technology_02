@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    display: block;
+    position: fixed;
+    top: 0;
+    opacity: 70%;
+
+}
+.garge{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(./imges/IMG_2730.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+    
+}
+.form{
+    background-color: black;
+    color: white;
+    height: 235px;
+    width: 300px;
+    margin-top: 50px;
+    border: solid 3px forestgreen;
+    margin-right: 800px;
+     
+}
+.t1{
+    background-color: crimson;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 232px;
+    margin-top: 50px;
+    border: solid 3px rgb(8, 224, 123);
+    margin-right: 400px;
+}
+.para{
+    height: 650px;
+    width: 800px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: rgb(240, 161, 14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 3px black;
+    opacity: 80%;
+    
+}
+#p1{
+    text-align: justify;
+    margin:  20px auto;
+    font-weight: bolder;
+    
+}
+input{
+    color: rgb(19, 1, 1);
+    background-color: rgb(182, 16, 247);
+}
+#pr{
+    color: white;
+    background-color: rgba(247, 6, 86, 0.774);
+}
+.int1{
+    color: black;
+    background-color: rgb(74, 158, 74);
+}
+.sampleimg{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(9, 196, 243, 0.664);
+    border: solid 2px black;
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-top: 10 px;
+  
+}
+.sig{
+    height: 150px;
+    width: 150px;
+    border: solid 1px black ;
+    row-gap: 10px;
+    
+}
+.sig img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.feedback{
+    height: 200px;
+    width: 300px;
+    border: solid 1px black ;
+    margin-top: 0px;
+    margin-left: 1000px;
+
+}
+#fd{
+    height: 200px;
+    width: 300px;
+    border: solid 1px black ;
+    background-color: rgb(177, 20, 143);
+    color: black;
+}
+#sb{
+    height: 30px;
+    width: 100px;   
+}
+#lb{
+    color: white;
+    background-color: rgb(253, 2, 2);
+}

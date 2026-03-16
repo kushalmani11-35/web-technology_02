@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    letter-spacing: 5vw;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    text-indent:10vw ;
+    text-transform: capitalize;
+    text-decoration: underline ;
+    /*word-spacing: 2vw;*/
+    line-height: 6vh;
+    text-decoration-style:dashed;
+    text-decoration-thickness:3px ;
+    text-decoration-color:green ;
+    
+}

@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(8, 90, 61);
+}
+h1{
+    color: rgba(247, 152, 10, 0.87);
+}
+input[type="text"]{
+    background-color: rgb(114, 36, 36);
+    color: beige;
+}
+legend{
+    font-size: 30px;
+    color: burlywood;
+}
+input{
+   background-color: rgba(155, 52, 12, 0.644);
+}
+
+label{
+    color: rgb(12, 9, 1);
+    background-color:rgb(165, 10, 10);
+}
+
+    
+h1,h2{
+    font-style: italic;
+
+}
+#para{
+    color: lightsalmon;
+    font-style: oblique;
+    
+}
+.hd{
+    color: cornflowerblue;
+    
+}
+input[type="radio"]{
+    color: orangered;
+    border: solid 2px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+textarea{
+    background-color: navajowhite;
+    color: darkred;
+    font-style: oblique;
+    
+}
+fieldset{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: crimson;
+    
+}

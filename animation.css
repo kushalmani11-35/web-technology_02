@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    border: solid 1px black;
+
+    animation-name: changecontent;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes changecontent{
+    0%{
+        background-color: red;
+        border-radius: 0%;
+        
+    }
+    25%{
+        width: 400px;
+        background-color: aqua;
+        border-radius: 0%;
+    }
+    50%{
+        background-color: yellow;
+        border-radius: 75%;
+        width: 400px;
+    }
+    75%{
+        background-color: blueviolet;
+        border-radius: 50%;
+        width: 200px;
+    }
+    100%{
+        background-color: red;
+        border-radius: 0%;
+        width: 200px;
+    }
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+
+    animation-name: changecontent1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changecontent1{
+    0%{
+        background-color: red;
+        border-radius: 0%;
+    }
+    
+    
+    50%{
+        background-color: yellow;
+        border-radius: 75%;
+    }
+   
+    100%{
+        background-color: red;
+        border-radius: 0%;
+    }
+}

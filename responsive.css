@@ -1,0 +1,49 @@
+/*body{
+    background: gainsboro;
+}
+@media screen and (min-width:300px) and (max-width:500px){
+    body{
+        background: yellow;
+    }
+    h2::before{
+        content: "Mobile";
+
+    }
+    
+}
+@media screen and (min-width:501px) and (max-width:800px) {
+    body{
+        background-color:red;        
+    }   
+}*/
+.cont{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-evenly;
+    row-gap:10vh ;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 5vh;
+    border: solid 1px black;
+    background: cyan;
+
+}
+
+@media screen and (min-width:650px) and (max-width:850px){
+    .cont{
+        grid-template-columns: repeat(3,auto);
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width:649px){
+    .cont{
+        grid-template-columns: repeat(1,auto);
+    }
+    .box{
+        width: 400px;
+        
+    }
+    
+}

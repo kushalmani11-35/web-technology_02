@@ -1,0 +1,13 @@
+div p{
+    color: red;
+}
+div>p{
+    background-color: rgb(165, 221, 10);
+}
+div+p{
+    color: blue;
+}
+div~p{
+    text-align: center;
+    font-weight: bold;
+}

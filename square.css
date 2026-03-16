@@ -1,0 +1,73 @@
+.square{
+    border: solid 5px red;
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+.circle{
+    border: solid 5px blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: blue;
+}
+.oval{
+    border: solid 3px forestgreen;
+    height: 200px;
+    width: 400px;
+    background: forestgreen;
+    border-radius: 50%;
+}
+.rect{
+    border: solid 5px rgb(128, 139, 34);
+    height: 200px;
+    width: 400px;
+    background: rgb(137, 139, 34);
+}
+.tri{
+    border: solid 5px darkgoldenrod;
+    height: 0px;
+    width: 0px;
+    border-top: solid 100px white;
+    border-left: solid 100px white;
+    border-right: solid 100px blue;
+    border-bottom: solid 100px white;
+    
+}
+#cube{
+    border: solid 5px darkgoldenrod;
+    height: 100px;
+    width: 100px;
+    border-top: solid 100px rgb(175, 95, 95);
+    border-left: solid 100px rgb(217, 240, 12);
+    border-right: solid 100px blue;
+    border-bottom: solid 100px rgb(23, 205, 218);
+}
+.rtri{
+    border: solid 5px darkgoldenrod;
+    height: 0px;
+    width: 0px;
+    border-top: solid 100px white;
+    border-left: solid 100px red(238, 18, 18);
+    border-right: solid 100px white;
+    border-bottom: solid 100px rgb(218, 5, 5);
+}
+.leaf{
+    border: solid 5px red;
+    height: 200px;
+    width: 200px;
+    background: red; 
+    border-top-left-radius: 100%;  
+    border-bottom-right-radius: 100%;
+}
+.ch{
+    border: solid 5px black;
+    height: 200px;
+    width: 200px;
+    background: black;
+    border-radius: 0% 100% 100% 100%;
+}
+div{
+    margin: auto;
+    box-shadow: 1px 1px 25px red;
+}

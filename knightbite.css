@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 0 100px;
+    width: 150px;
+    height: 90px;
+    background: url(./imges/knightbitelogo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150px 90px;
+    cursor: pointer
+}
+.container{
+    height: 663px;
+    width: 796px;
+    background-image: url(./imges/knbackimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 796px 663px;
+    
+}
